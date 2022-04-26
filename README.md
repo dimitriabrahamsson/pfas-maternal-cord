@@ -1,5 +1,5 @@
 ## Modeling the transplacental transfer of small molecules using machine learning models: A case study on PFAS
-#### During pregnancy, chemicals from the mother are transfered to the fetus. This is often described as the transplacental transfer (TPT) or the partitioning of small molecules between maternal and cord blood (Rcm). Rcm is determined by the physicochemical properties of the chemicals and by the properties of their environment, in this case, the placenta.
+#### During pregnancy, chemicals from the mother pass through the placenta and are transfered to the fetus. This is often described as the transplacental transfer (TPT) or the partitioning of chemicals between maternal and cord blood (Rcm). Rcm is determined by the physicochemical properties of the chemical compounds and by the properties of their environment, in this case, the placenta.
 
 #### In this study we examined the application of 3 different machine learning algorithms at predicting Rcm based on the chemicals' physicochemical properties. 
 
