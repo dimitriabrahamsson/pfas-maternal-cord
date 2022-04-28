@@ -11,3 +11,6 @@ To run the model open the script 'RF_Rcm.py' and read the database file 'Rcm_dat
 
 #### The third model was a support vector machine (SVM).
 To run the model open the script 'SVM_Rcm.py' and read the database file 'Rcm_database.csv'. The script outputs the results for the training and testing sets as two seperate files: 'SVM_plus_tr_1.csv' and 'SVM_plus_ts_1.csv'. 
+
+#### Grid search hyperparameter tuning
+For all three models, the hyperparameter tuning was done using the GridSearchCV function (grid search cross-validation) from scikit-learn. The scripts for the grid search are: 'ANN_Rcm_GridSearch.py', 'SVM_Rcm_GridSearch.py' and 'RF_Rcm_GridSearch.py'. The results are shown in the csv files 'ANN_GridSearch.csv', 'RF_GridSearch.csv' and 'SVM_GridSearch.csv'.
