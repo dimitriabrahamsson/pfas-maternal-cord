@@ -3,13 +3,13 @@
 
 #### In this study we examined the application of 3 different machine learning algorithms at predicting Rcm based on the chemicals' physicochemical properties. 
 
-#### The first model we worked on was an artificial neural network (ANN).
+#### 1) An artificial neural network (ANN)
 To run the model open the script 'ANN_Rcm.py' and read the database file 'Rcm_database.csv'. The script outputs the results for the training and testing sets as two seperate files: 'ANN_plus_tr_1.csv' and 'ANN_plus_ts_1.csv'. 
 
-#### The second model we examined was a random forest (RF).
+#### 2) A random forest (RF)
 To run the model open the script 'RF_Rcm.py' and read the database file 'Rcm_database.csv'. The script outputs the results for the training and testing sets as two seperate files: 'RF_plus_tr_1.csv' and 'RF_plus_ts_1.csv'. 
 
-#### The third model was a support vector machine (SVM).
+#### 3) A support vector machine (SVM)
 To run the model open the script 'SVM_Rcm.py' and read the database file 'Rcm_database.csv'. The script outputs the results for the training and testing sets as two seperate files: 'SVM_plus_tr_1.csv' and 'SVM_plus_ts_1.csv'. 
 
 #### Grid search hyperparameter tuning
