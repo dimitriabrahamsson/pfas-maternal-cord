@@ -196,16 +196,16 @@ for i in range (0,100):
 
 
 # organizing output files
-newpath = r'C:\Users\dimit\Dropbox\UCSF postdoc\Adi internship v2\Maternal - cord predictions\ANN_CV_yrandom1' 
+newpath = r'C:\Users\dimit\Maternal_cord_predictions\ANN_CV_yrandom1' # Replace with your path
 if not os.path.exists(newpath):
     os.makedirs(newpath)
 else:
     shutil.rmtree(newpath)
     os.makedirs(newpath)
 
-source = 'C:/Users/dimit/Dropbox/UCSF postdoc/Adi internship v2/Maternal - cord predictions'
+source = 'C:/Users/dimit/Maternal_cord_predictions' # Replace with your path
 source_ls = os.listdir(source)
-destination = 'C:/Users/dimit/Dropbox/UCSF postdoc/Adi internship v2/Maternal - cord predictions/ANN_CV_yrandom1'
+destination = 'C:/Users/dimit/Maternal_cord_predictions/ANN_CV_yrandom1' # Replace with your path
 
 for file in source_ls:
     if 'ANN_yrand' in file:
