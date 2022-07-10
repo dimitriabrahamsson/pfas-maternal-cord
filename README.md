@@ -18,3 +18,5 @@ For all three models, the hyperparameter tuning was done using the GridSearchCV 
 #### Additional shuffle-split cross-validation and y-randomization
 The best performing model, ANN, was further evaluated with an additional shuffle-split cross validation (n=100 cycles) and a y-randomization (n=100 cycles). See files 'ANN_Rcm_CV_v2.py' and 'ANN_Rcm_y-randomization_v2.py'. The results are shown in 'Modeling.xlsx'
 
+#### Model predictions for PFAS
+The model was used to make predictions for PFAS from PFASMASTER on EPA's Comptox Chemicals Dashboard. The results are under 'Modeling.xlsx'
